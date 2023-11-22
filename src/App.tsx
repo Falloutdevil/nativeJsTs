@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import {User} from './06/06';
 
 function App() {
-  return (
+  const names = ['1', '2', '3', '4']
+    return (
     <div className="App">
-       1
+      <User />
     </div>
   );
 }
